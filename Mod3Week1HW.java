@@ -45,16 +45,30 @@
 //3
 public class Mod3Week1HW{
     public static void main(String args[]){
-        int num = 24;
-
-        if(num % 2 == 0 && num >=2 && num <= 5){
-            System.out.println("Not Cool");
-        }else if(num%2 == 0 && num >=6 && num <=20){
-            System.out.println("Cool");
-        }else if(num %2 ==0 && num > 20){
-            System.out.println("Not Cool");
-        }else{
-            System.out.println("Cool");
+        for(int r=1; r<=5; r++){
+            for(int c=1; c<=r; c++){
+                System.out.print(r);//if print r= 1/22/333/4444/55555, if c=1/12/123/1234/12345
+            }
+            System.out.println();
         }
     }
 }
+
+// int num = 24;
+
+//         if(num % 2 == 0 && num >=2 && num <= 5){
+//             System.out.println("Not Cool");
+//         }else if(num%2 == 0 && num >=6 && num <=20){
+//             System.out.println("Cool");
+//         }else if(num %2 ==0 && num > 20){
+//             System.out.println("Not Cool");
+//         }else{
+//             System.out.println("Cool");
+//         }
+
+// for(int r=1; r<=5; r++){
+//     for(int c=1; c<=5; c++){
+//         System.out.print(r); //gives 1111/22222/33333/44444/55555
+//     }
+//     System.out.println();
+// }
